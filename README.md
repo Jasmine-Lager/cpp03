@@ -10,8 +10,7 @@ share attributes and methods, and chain constructors/destructors properly.
 **ex00/ Aaaaand... OPEN!** - the ClapTrap base class with basic combat stats
 (hp, energy, attack damage) and three actions: attack, takeDamage, and beRepaired
 
-**ex01/ Serena, my love!** - ScavTrap inherits from ClapTrap with boosted stats
-(hp 100, energy 50, attack 20), its own attack message, and a guardGate() ability
+**ex01/ Serena, my love!** - ScavTrap inherits from ClapTrap with boosted stats (hp 100, energy 50, attack 20), its own attack message, and a guardGate() ability
 
 **ex02/ Repetitive work** - FragTrap also inherits from ClapTrap, similar to
 ScavTrap but with different stats (hp 100, energy 100, attack 30) and a

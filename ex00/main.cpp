@@ -1,3 +1,4 @@
+
 #include "ClapTrap.hpp"
 
 int main()
@@ -24,7 +25,7 @@ int main()
 	// this repair attempt should fail because energy is 0
 	robot_one.beRepaired(10);
 
-	robot_two.takeDamage(20);	// health was 15, now 0
+	robot_two.takeDamage(20); // health was 15, now 0
 	robot_two.attack("Clippy"); // shouldn't work if hp is 0
 
 	return 0;
